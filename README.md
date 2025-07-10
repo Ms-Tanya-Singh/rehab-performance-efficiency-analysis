@@ -13,11 +13,11 @@ This project simulates and analyzes patient performance data from therapeutic ga
 
 ## Project Features
 
-- 📊 Time-normalized scoring analysis using `score_per_minute`
-- 📉 Outlier filtering with Interquartile Range (IQR)
-- 🧠 Performance comparisons across patient mobility levels
-- 🎮 Game-type and difficulty analysis
-- 🌈 Use of colormaps in visualizations for intuitive trends
+- Time-normalized scoring analysis using `score_per_minute`
+- Outlier filtering with Interquartile Range (IQR)
+- Performance comparisons across patient mobility levels
+- Game-type and difficulty analysis
+- Use of colormaps in visualizations for intuitive trends
 
 ## File Structure
 
@@ -45,7 +45,16 @@ rom-score-efficiency-analysis/
    ```bash
    jupyter notebook notebooks/ROM_Score_Efficiency_Insights.ipynb
    ```
+## Sample Output
 
+**Score per Minute by ROM Classification (after IQR filtering):**  
+![Boxplot](figures/score_per_minute_by_rom.png)
+
+**Average Score per Minute by Game Type:**  
+![Barplot](figures/game_type_efficiency.png)
+
+**ROM Classification vs Game Type Efficiency:**  
+![Grouped Barplot](figures/rom_vs_game_type.png)
 
 This project demonstrates how combining basic statistical filtering, domain knowledge, and visual storytelling can uncover meaningful trends in therapeutic game data — even when starting with mock data.
 
